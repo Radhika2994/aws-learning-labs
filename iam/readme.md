@@ -1,0 +1,10 @@
+In this project, I learned how to use AWS IAM (Identity and Access Management) to control who can do what in AWS.
+IAM is very important because it helps keep AWS accounts secure by managing users, groups, roles, and permissions.
+Here’s what I did and learned:
+Created IAM Users: Made individual users who can log in or use AWS services. Each user can have passwords or access keys.
+Made User Groups: Put users into groups so it’s easier to manage permissions for many users at once.
+Created Custom Policies: Wrote my own permission rules in JSON format to allow only certain actions, not full access. This helps keep things safe by giving just enough permission.
+Attached Policies to Groups: Gave the whole group the custom permissions by attaching policies to groups, so all members get those permissions automatically.
+Learned About Roles: Found out roles are like special permission sets that AWS services or users can assume temporarily without long-term keys. This is useful for things like EC2 or cross-account access.
+Saw How Permissions Work: Understood how AWS decides if someone can do something by checking all the policies attached to them.
+Security Tips: Learned to use MFA, rotate keys, and avoid using the root account for daily work to keep accounts safe.
